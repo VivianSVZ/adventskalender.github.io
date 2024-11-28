@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventskalender</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<h1>Adventskalender </h1>
+<div id="calendar">
+  <!-- 24 Türchen -->
+  <div class="door" data-day="1">1</div>
+  <div class="door" data-day="2">2</div>
+  <div class="door" data-day="3">3</div>
+  <div class="door" data-day="4">4</div>
+  <div class="door" data-day="5">5</div>
+  <div class="door" data-day="6">6</div>
+
+  <div class="door" data-day="7">7</div>
+  <div class="door" data-day="8">8</div>
+  <div class="door" data-day="9">9</div>
+  <div class="door" data-day="10">10</div>
+  <div class="door" data-day="11">11</div>
+  <div class="door" data-day="12">12</div>
+
+  <div class="door" data-day="13">13</div>
+  <div class="door" data-day="14">14</div>
+  <div class="door" data-day="15">15</div>
+  <div class="door" data-day="16">16</div>
+  <div class="door" data-day="17">17</div>
+  <div class="door" data-day="18">18</div>
+
+  <div class="door" data-day="19">19</div>
+  <div class="door" data-day="20">20</div>
+  <div class="door" data-day="21">21</div>
+  <div class="door" data-day="22">22</div>
+  <div class="door" data-day="23">23</div>
+  <div class="door" data-day="24">24</div>
+</div>
+
+<!-- Popup für Rätsel -->
+<div id="popup" class="hidden">
+  <div id="popup-content">
+    <h2 id="riddle-title">Türchen</h2>
+    <p id="riddle-text"></p>
+    <input type="text" id="answer" placeholder="Deine Antwort">
+    <button id="submit-answer">Antwort prüfen</button>
+    <button id="close-popup">Schließen</button>
+    <p id="feedback"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

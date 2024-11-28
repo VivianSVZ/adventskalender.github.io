@@ -1,0 +1,10 @@
+{
+  "name": "Adventskalender",
+  "short_name": "Advent",
+  "description": "Ein Adventskalender mit Bibelstellen.",
+  "scope": "/adventskalender.github.io/",
+  "start_url": "/adventskalender.github.io/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b22222"
+}
