@@ -3,8 +3,8 @@ const urlsToCache = [
     "/",
     "/index.html",
     "/style.css",
-    "/index.js",
-    "/manifest.json"
+    "/script.js",
+    "/manifest.json",
 ];
 
 // Installations-Ereignis
